@@ -3,9 +3,9 @@ YOLO Model Performance Comparison: RTDETR vs. YOLO 11
 
 
 <div style="display:flex; text-align:center; justify-content:center;"> 
-    <img src="assets/introduction_image.png" alt="introduction_image" width="200">
-    <img src="assets/introduction_image_2.png" alt="introduction_image" width="200">
-    <img src="assets/introduction_image_3.png" alt="introduction_image" width="200">
+    <img src="assets/introduction_image.png" alt="introduction_image" width="250">
+    <img src="assets/introduction_image_2.png" alt="introduction_image" width="250">
+    <img src="assets/introduction_image_3.png" alt="introduction_image" width="250">
 </div>
 
 
