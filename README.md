@@ -35,8 +35,6 @@ Training Set: Used to train the models.
 
 Validation Set: Used for hyperparameter tuning.
 
-Test Set: Used to evaluate model performance.
-
 ## Models Compared
 
 ### RTDETR: A real-time object detection model designed for high efficiency and accuracy.
@@ -51,10 +49,25 @@ Test Set: Used to evaluate model performance.
 
 To compare the models fairly, we use the following evaluation metrics:
 
-__Mean Average Precision (mAP):__ Measures overall detection accuracy.
+__Mean Average Precision (mAP50):__ Measures overall detection accuracy at an Intersection over Union (IoU) threshold of 0.5.
 
-__F1 Score:__ Balances precision and recall.
+__Confusion Matrix:__ A confusion matrix for object detection and classification is a performance measurement tool that evaluates the accuracy of a model in predicting both the presence of objects (localization) and their correct class labels (classification).
 
-__Inference Speed (FPS):__ Evaluates the real-time performance of the models.
+## Results
+| Model   | mAP@50 | mAP@50-95 |
+|---------|--------|----------|
+| YOLO11l | 0.416  | 0.186     |
+| RT-DETR-L  | 0.453    | 0.178     |
 
-__Model Size & Efficiency:__ Determines feasibility for deployment on low-resource device.
+<h4>Confusion Matrix</h4>
+<div > 
+    <span style="display:flex; justify-content:space-between"> 
+        <h3> YOLO11l </h3>
+        <h3> RT-DETR-L </h3>
+    </span>
+    <span style="display:flex; justify-content:space-between"> 
+        <img src='assets/yolo_confusion_matrix.png' width="300">
+        <img src='assets/rtdetr_confusion_matrix.png' width="300">
+    </span>
+    
+</div>
