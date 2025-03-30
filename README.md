@@ -60,14 +60,14 @@ __Confusion Matrix:__ A confusion matrix for object detection and classification
 | RT-DETR-L  | 0.453    | 0.178     |
 
 <h4>Confusion Matrix</h4>
-<div > 
+<div style="text-align:center;"> 
     <span style="display:flex; justify-content:space-between"> 
         <h3> YOLO11l </h3>
         <h3> RT-DETR-L </h3>
     </span>
     <span style="display:flex; justify-content:space-between"> 
-        <img src='assets/yolo_confusion_matrix.png' width="300">
-        <img src='assets/rtdetr_confusion_matrix.png' width="300">
+        <img src='assets/yolo_confusion_matrix.png' >
+        <img src='assets/rtdetr_confusion_matrix.png'>
     </span>
     
 </div>
