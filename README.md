@@ -65,9 +65,9 @@ __Confusion Matrix:__ A confusion matrix for object detection and classification
         <h3 style="margin: 0;">YOLO11l</h3>
         <h3 style="margin: 0;">RT-DETR-L</h3>
     </div>
-    <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="assets/yolo_confusion_matrix.png" alt="YOLO Confusion Matrix" style="max-width: 20%; height: 20%;">
-        <img src="assets/rtdetr_confusion_matrix.png" alt="RT-DETR Confusion Matrix" style="max-width: 20%; height: 20%;">
+    <div style="display: flex; justify-content: center; gap: 5px;">
+        <img src="assets/yolo_confusion_matrix.png" alt="YOLO Confusion Matrix" style="max-width: 20%; height: auto;">
+        <img src="assets/rtdetr_confusion_matrix.png" alt="RT-DETR Confusion Matrix" style="max-width: 20%; height: auto;">
     </div>
 </div>
 
