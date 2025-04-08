@@ -69,3 +69,12 @@ __Confusion Matrix:__ A confusion matrix for object detection and classification
     </div>
 </div>
 
+
+## Validation Predictions
+
+<img src="assets/validation_1.png" alt="validation_1_results" style="min-width:250px; height: auto;">
+<img src="assets/validation_2.png" alt="validation_2_results" style="min-width:250px; height: auto;">
+<img src="assets/validation_3.png" alt="validation_3_results" style="min-width:250px; height: auto;">
+
+
+
